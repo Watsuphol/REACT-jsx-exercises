@@ -4,7 +4,7 @@ const App = () => {
     <>
       <Header temperature={temperature} />;
       <Content temperature={temperature} />;
-	  <Footer />
+      <Footer />
     </>
   );
 };
@@ -30,12 +30,12 @@ const Temperature = ({ temperature }) => {
 };
 
 const Footer = () => {
-	return (
-	  <footer>
-		<button>Down</button>
-		<button>Up</button>
-	  </footer>
-	);
-  };
-  
+  return (
+    <footer>
+      <button>Down</button>
+      <button>Up</button>
+    </footer>
+  );
+};
+
 export default App;

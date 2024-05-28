@@ -7,7 +7,7 @@ const App = () => {
 	const decreaseTemperature = () => setTemperature((prevTemp) => prevTemp - 1);
 	const increaseTemperature = () => setTemperature((prevTemp) => prevTemp + 1);
 	const toggleIsOn = () => setIsOn(!isOn);
-
+	
 	return <>{/* code here */};</>;
 };
 
